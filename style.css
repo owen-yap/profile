@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FF7271;
+}
+
+.container {
+  background-color: white;
+  width:90%;
+  max-width: 960px;
+  margin: 2rem auto;
+  box-shadow: 8px 8px 8px rgba(10, 10, 10, 0.3);
+  padding: 1rem;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.self-portrait {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.introduction {
+  display: inline-block;
+  margin: 2rem 5rem;
+  font-family: 'Nunito', sans-serif;
+  margin-bottom: 2rem;
+  font-size: 20px;
+}
+
+.subheading {
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.subheading a {
+  transition: 0.3s;
+}
+
+.subheading a:hover {
+  color: cornflowerblue;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  margin: 2rem;
+  font-size: 2.4rem;
+}
+
+.tech-stack {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 2rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  position: relative;
+  right: 15px;
+}
+
+.tech-stack img {
+  height: 100px;
+}
+
+.photography img {
+  width: 33%;
+}
+
+.tech-stack img:first-of-type {
+  position: relative;
+  left: 35px;
+}
+
+.social {
+  text-align: center;
+}
+
+.social li {
+  display: inline;
+  margin: 0 2rem;
+  font-size: 3rem;
+}
+
+.social i {
+  color: darkblue;
+  transition: 0.3s;
+}
+
+.social i:hover {
+  color: cornflowerblue;
+}
