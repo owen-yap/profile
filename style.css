@@ -104,3 +104,27 @@ h2 {
 .social i:hover {
   color: cornflowerblue;
 }
+
+@media screen and (max-width: 800px) {
+  .self-portrait {
+    width: 150px;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .introduction {
+    margin: 0.2rem;
+    margin-top: 1rem;
+  }
+
+  .subheading {
+    margin-top: 2rem;
+    font-weight: bold;
+  }
+
+  .photography {
+    text-align: center;
+  }
+}
