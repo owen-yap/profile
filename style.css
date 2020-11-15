@@ -36,7 +36,7 @@ h1 {
 
 .introduction {
   display: inline-block;
-  margin: 2rem 5rem;
+  margin: 2rem auto;
   font-family: 'Nunito', sans-serif;
   margin-bottom: 2rem;
   font-size: 20px;
@@ -69,8 +69,10 @@ h2 {
   margin: 0 auto;
   margin-top: 2rem;
   background-color: rgba(255, 255, 255, 0.8);
-  position: relative;
-  right: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .tech-stack img {
@@ -81,10 +83,10 @@ h2 {
   width: 33%;
 }
 
-.tech-stack img:first-of-type {
+/* .tech-stack img:first-of-type {
   position: relative;
   left: 35px;
-}
+} */
 
 .social {
   text-align: center;
@@ -106,12 +108,9 @@ h2 {
 }
 
 @media screen and (max-width: 800px) {
+  
   .self-portrait {
     width: 150px;
-  }
-
-  .container {
-    width: 100%;
   }
 
   .introduction {
@@ -126,5 +125,9 @@ h2 {
 
   .photography {
     text-align: center;
+  }
+
+  .container h2 {
+    font-size: 1.5rem;
   }
 }
